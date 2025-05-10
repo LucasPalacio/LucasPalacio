@@ -7,7 +7,7 @@
 ##
 ## languages
 <ul></ul>  
-<a><img height=60 align="center" src="c.png"</a>
+<a><img height=60 align="center" src="[c.png](https://github.com/LucasPalacio/LucasPalacio/blob/main/c.png?raw=true)"</a>
 <a href="https://github.com/LucasPalacio/convoychat">
   <img height=100 align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=LucasPalacio&layout=compact&langs_count=8&card_width=320" />
 </a>
