@@ -17,4 +17,6 @@
 </div>
 <br></br>
 <br></br>
+<hr>
 <img src="gatinho.gif" alt="cat's is so perfect">
+<hr>
