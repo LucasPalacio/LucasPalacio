@@ -13,10 +13,11 @@
   <!-- GitHub Stats -->
   <a href="https://github.com/LucasPalacio/convoychat">
     <img height="100" align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=LucasPalacio&layout=compact&langs_count=8&card_width=320" />
+   
   </a>
 </div>
-<br></br>
-<br></br>
+<br>
 <hr>
 <img src="gatinho.gif" alt="cat's is so perfect">
 <hr>
+
