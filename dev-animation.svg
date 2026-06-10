@@ -1,0 +1,110 @@
+<svg
+  width="854"
+  height="200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 854 200"
+  style="background-color:#0d1117;"
+>
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a237e"/>
+      <stop offset="50%"  stop-color="#4a148c"/>
+      <stop offset="100%" stop-color="#1a237e"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#4a148c"/>
+      <stop offset="50%"  stop-color="#00695c"/>
+      <stop offset="100%" stop-color="#4a148c"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7986cb"/>
+      <stop offset="50%"  stop-color="#b39ddb"/>
+      <stop offset="100%" stop-color="#80cbc4"/>
+    </linearGradient>
+    <style>
+      .name-text {
+        font-size: 38px;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        animation: fadeIn 1.2s ease-in-out forwards;
+      }
+      .phrase {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 18px;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="854" height="200" fill="#0d1117"/>
+
+  <!-- Wave 1 -->
+  <g transform="translate(427,100) scale(1,1) translate(-427,-100)">
+    <path fill="url(#waveGrad1)" opacity="0.45">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+        values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;
+                M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;
+                M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;
+                M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z"/>
+    </path>
+  </g>
+
+  <!-- Wave 2 -->
+  <g transform="translate(427,100) scale(1,1) translate(-427,-100)">
+    <path fill="url(#waveGrad2)" opacity="0.35">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s"
+        values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;
+                M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;
+                M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;
+                M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z"/>
+    </path>
+  </g>
+
+  <!-- Nome centralizado -->
+  <text text-anchor="middle" x="50%" y="38%"
+    class="name-text" fill="url(#textGrad)">Lucas Palacio Mello</text>
+
+  <!-- Frases com fade in/out — cada uma tem janela de 4s dentro de ciclo de 16s -->
+
+  <!-- Frase 0: visível nos primeiros 4s -->
+  <text class="phrase" fill="#80cbc4" text-anchor="middle" x="50%" y="75%" opacity="0">
+    Estudante de Engenharia de Software
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" begin="0s"
+      keyTimes="0;0.02;0.22;0.25;1"
+      values="0;1;1;0;0"/>
+  </text>
+
+  <!-- Frase 1: visível de 4s a 8s -->
+  <text class="phrase" fill="#80cbc4" text-anchor="middle" x="50%" y="75%" opacity="0">
+    Apaixonado por tecnologia e inovação
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" begin="4s"
+      keyTimes="0;0.02;0.22;0.25;1"
+      values="0;1;1;0;0"/>
+  </text>
+
+  <!-- Frase 2: visível de 8s a 12s -->
+  <text class="phrase" fill="#80cbc4" text-anchor="middle" x="50%" y="75%" opacity="0">
+    Desenvolvedor Full-Stack em formação
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" begin="8s"
+      keyTimes="0;0.02;0.22;0.25;1"
+      values="0;1;1;0;0"/>
+  </text>
+
+  <!-- Frase 3: visível de 12s a 16s -->
+  <text class="phrase" fill="#80cbc4" text-anchor="middle" x="50%" y="75%" opacity="0">
+    Sempre aprendendo, sempre evoluindo 🚀
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" begin="12s"
+      keyTimes="0;0.02;0.22;0.25;1"
+      values="0;1;1;0;0"/>
+  </text>
+
+</svg>
