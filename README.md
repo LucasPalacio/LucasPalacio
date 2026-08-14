@@ -12,7 +12,7 @@
   <tr>
     <td valign="top" width="55%">
 
-🎓 Cursando **Engenharia de Software** — 3º Semestre<br> 
+🎓 Cursando **Engenharia de Software** — 4º Semestre<br> 
 💻 Focado em **Desenvolvimento Full-Stack** <br>
 🚀 Buscando minha **primeira oportunidade** como Desenvolvedor<br>
 📍 Brasil<br>
